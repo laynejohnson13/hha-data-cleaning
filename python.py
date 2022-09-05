@@ -33,7 +33,6 @@ dates = df.select_dtypes(include=['object']).columns
 
 df['date'] = pd.to_datetime(df['date'])
 
-######recieved error for format not being correct to match the time listed
 
 ##drop duplicates
 df.drop_duplicates()
